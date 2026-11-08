@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "stage": "analysis",
+  "status": "partial",
+  "mode": "stage",
+  "inputs": [],
+  "outputs": [],
+  "decisions": [],
+  "stage_data": {},
+  "runs": [],
+  "vscode_verification": {"status": "not_run", "evidence": []},
+  "checks": [],
+  "pending": ["尚未填入实际任务与证据；本文件只是交接结构模板。"]
+}

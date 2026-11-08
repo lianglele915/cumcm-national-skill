@@ -1,0 +1,3 @@
+interface:
+  display_name: "数模国赛"
+  short_description: "国赛六阶段建模、示例论文写作与图表优化，含 VS Code 运行验证"

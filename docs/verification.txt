@@ -1,0 +1,39 @@
+Python: <WORKSPACE>\.uvpython\cpython-3.12.15-windows-x86_64-none\python.exe
+Version: 3.12.15 (main, Oct 14 2026, 01:08:45) [MSC v.1944 64 bit (AMD64)]
+CWD: <WORKSPACE>
+COMMAND: <WORKSPACE>\.uvpython\cpython-3.12.15-windows-x86_64-none\python.exe -X utf8 <CODEX_SYSTEM_SKILLS>/skill-creator/scripts/quick_validate.py <WORKSPACE>\skill-setup\cumcm-national
+Skill is valid!
+
+EXIT_CODE: 0
+COMMAND: <WORKSPACE>\.uvpython\cpython-3.12.15-windows-x86_64-none\python.exe -X utf8 -m unittest discover -s <WORKSPACE>\skill-setup\cumcm-national-skill\tests -v
+test_absolute_windows_path_is_rejected (test_handoff.HandoffEvidenceTests.test_absolute_windows_path_is_rejected) ... ok
+test_changed_data_hash_is_rejected (test_handoff.HandoffEvidenceTests.test_changed_data_hash_is_rejected) ... ok
+test_cli_cannot_claim_vscode_success (test_handoff.HandoffEvidenceTests.test_cli_cannot_claim_vscode_success) ... ok
+test_cli_reports_failure_exit (test_handoff.HandoffEvidenceTests.test_cli_reports_failure_exit) ... ok
+test_editor_evidence_is_accepted (test_handoff.HandoffEvidenceTests.test_editor_evidence_is_accepted) ... ok
+test_honest_partial_with_cli_is_accepted (test_handoff.HandoffEvidenceTests.test_honest_partial_with_cli_is_accepted) ... ok
+test_malformed_status_is_reported_not_crashed (test_handoff.HandoffEvidenceTests.test_malformed_status_is_reported_not_crashed) ... ok
+test_missing_file_is_rejected (test_handoff.HandoffEvidenceTests.test_missing_file_is_rejected) ... ok
+test_nonzero_exit_cannot_pass (test_handoff.HandoffEvidenceTests.test_nonzero_exit_cannot_pass) ... ok
+test_pending_or_failed_checks_prevent_completion (test_handoff.HandoffEvidenceTests.test_pending_or_failed_checks_prevent_completion) ... ok
+test_traversal_is_rejected (test_handoff.HandoffEvidenceTests.test_traversal_is_rejected) ... ok
+test_unhashed_log_is_rejected (test_handoff.HandoffEvidenceTests.test_unhashed_log_is_rejected) ... ok
+test_valid_analysis_artifact (test_handoff.HandoffEvidenceTests.test_valid_analysis_artifact) ... ok
+test_provenance_deduplication_and_files (test_resources.ResourceTests.test_provenance_deduplication_and_files) ... ok
+test_relative_references_are_available (test_resources.ResourceTests.test_relative_references_are_available) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.216s
+
+OK
+
+EXIT_CODE: 0
+COMMAND: <WORKSPACE>\.uvpython\cpython-3.12.15-windows-x86_64-none\python.exe -X utf8 <WORKSPACE>\skill-setup\cumcm-national\scripts\validate_handoff.py <WORKSPACE>\skill-setup\cumcm-national\assets\handoff-template.json --project-root <WORKSPACE>\skill-setup\cumcm-national
+{
+  "valid": true,
+  "errors": []
+}
+
+EXIT_CODE: 0
+Artifact audit: Markdown links, JSON, 30 sources, 23 unique PDFs passed
+ALL CHECKS PASSED

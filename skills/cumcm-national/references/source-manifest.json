@@ -1,0 +1,560 @@
+{
+  "version": "1.0",
+  "prepared_date": "2026-11-08",
+  "docx_files": 6,
+  "pdf_files": 24,
+  "unique_pdf_contents": 23,
+  "scope": "结构与工作流提炼；非全文数学正确性审计或程序复现；扫描资料只声明所列已读页",
+  "sources": [
+    {
+      "id": "D01",
+      "file": "01_数学建模国赛【赛题分析】万能提示词.docx",
+      "sha256": "d8b12e93fbfb4bdf027e8bfb333865f7d0d96d3b18cea7148b0c1598e6b82497",
+      "format": "docx",
+      "characters_extracted": 3785,
+      "reading": "正文及表格段落提取",
+      "used_in": "references/01-analysis.md"
+    },
+    {
+      "id": "D02",
+      "file": "02_数学建模国赛【数据预处理】万能提示词.docx",
+      "sha256": "5e2be9a45ca2fa091abe591bfdd82bd7fe5e30485c1b75893aafcc897ec7cb24",
+      "format": "docx",
+      "characters_extracted": 4271,
+      "reading": "正文及表格段落提取",
+      "used_in": "references/02-preprocessing.md"
+    },
+    {
+      "id": "D03",
+      "file": "03_数学建模国赛【问题求解】万能提示词.docx",
+      "sha256": "c9add268be2fce68e73d3345b7e0b3a05d77e10539bd14611a03103f55ffd13f",
+      "format": "docx",
+      "characters_extracted": 4246,
+      "reading": "正文及表格段落提取",
+      "used_in": "references/03-solving.md"
+    },
+    {
+      "id": "D04",
+      "file": "04_数学建模国赛【模型检验】万能提示词.docx",
+      "sha256": "7de70f0090fd6653a56f6e49e12df3d49c73ae12642a76631dec756a60a3bde6",
+      "format": "docx",
+      "characters_extracted": 4010,
+      "reading": "正文及表格段落提取",
+      "used_in": "references/04-validation.md"
+    },
+    {
+      "id": "D05",
+      "file": "05_数学建模国赛【论文写作】万能提示词.docx",
+      "sha256": "29805f14dd8890e471301ecd1addf8dec02670e29c586db67a848917fca8d99d",
+      "format": "docx",
+      "characters_extracted": 4938,
+      "reading": "正文及表格段落提取",
+      "used_in": "references/05-writing.md"
+    },
+    {
+      "id": "D06",
+      "file": "06_数学建模国赛【图表美化】万能提示词.docx",
+      "sha256": "a6d2b38521ff12381d1626e2adee1aeb8df6af72c4ab918f112a57c3c6e193e8",
+      "format": "docx",
+      "characters_extracted": 5044,
+      "reading": "正文及表格段落提取",
+      "used_in": "references/06-figures.md"
+    },
+    {
+      "id": "P01",
+      "file": "2024A 基于几何模型的板凳龙运动路径问题.pdf",
+      "sha256": "e8fa3686a1c31fb593754689cec0fe4a4de5a0951ed6beff398d4f4a87bbc9d5",
+      "pages": 45,
+      "text_characters": 57609,
+      "format": "pdf",
+      "text_mode": "正文可提取",
+      "visually_sampled_pages": [
+        1,
+        6,
+        13
+      ],
+      "used_in": "references/paper-examples.md"
+    },
+    {
+      "id": "P02",
+      "file": "2024B 基于蚁群算法与遗传算法优化的蒙特卡洛模拟在生产决策优化中的应用研究.pdf",
+      "sha256": "e54f4e9f8bff9f057e54cf7070089dedd4b0f052584ca2b71903cc429bdfb053",
+      "pages": 28,
+      "text_characters": 27157,
+      "format": "pdf",
+      "text_mode": "正文可提取",
+      "visually_sampled_pages": [
+        1,
+        6,
+        13
+      ],
+      "used_in": "references/paper-examples.md"
+    },
+    {
+      "id": "P03",
+      "file": "2024C 基于优化算法的农作物最优种植模型.pdf",
+      "sha256": "819b80f5d2f04057b1fe11f2513fd144ebc61001e1bf1417c7cb444c14094402",
+      "pages": 49,
+      "text_characters": 66818,
+      "format": "pdf",
+      "text_mode": "正文可提取",
+      "visually_sampled_pages": [
+        1,
+        6,
+        13
+      ],
+      "used_in": "references/paper-examples.md"
+    },
+    {
+      "id": "P04",
+      "file": "2024C 基于遗传算法的最优种植策略.pdf",
+      "sha256": "cca0306586c9f2b808ae4208459a12b050d3f71e58785d1470f89d19f0c3df0e",
+      "pages": 45,
+      "text_characters": 54467,
+      "format": "pdf",
+      "text_mode": "正文可提取",
+      "visually_sampled_pages": [
+        1,
+        6,
+        13
+      ],
+      "used_in": "references/paper-examples.md"
+    },
+    {
+      "id": "P05",
+      "file": "2024C 基于随机优化的农作物种植策略模型.pdf",
+      "sha256": "719bc71e72888c2e343e62182661feae4b7c8524b8fa8ac00a9daf77f19cacb5",
+      "pages": 58,
+      "text_characters": 112202,
+      "format": "pdf",
+      "text_mode": "正文可提取",
+      "visually_sampled_pages": [
+        1,
+        6,
+        13
+      ],
+      "used_in": "references/paper-examples.md"
+    },
+    {
+      "id": "P06",
+      "file": "2025数学建模国赛A题论文.pdf",
+      "sha256": "e68f952d31cd10a62920b6dd4a2e01319d1f4bcdeeb36f2191f24abcae1b273e",
+      "pages": 83,
+      "text_characters": 6640,
+      "format": "pdf",
+      "text_mode": "水印文本层，正文为图像",
+      "visually_sampled_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        13,
+        21
+      ],
+      "used_in": "references/paper-examples.md"
+    },
+    {
+      "id": "P07",
+      "file": "2025数学建模国赛B题论文.pdf",
+      "sha256": "e98c2c1800508915ffc610c18bb252b00297f03d45dca8fe488ed48bd4f4e97c",
+      "pages": 27,
+      "text_characters": 2160,
+      "format": "pdf",
+      "text_mode": "水印文本层，正文为图像",
+      "visually_sampled_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        13,
+        21
+      ],
+      "used_in": "references/paper-examples.md"
+    },
+    {
+      "id": "P08",
+      "file": "2025数学建模国赛C题论文(1).pdf",
+      "sha256": "569536d356014e2cbfbda70376b3be35be29402a1470b2af4ad671be10794858",
+      "pages": 27,
+      "text_characters": 2160,
+      "format": "pdf",
+      "text_mode": "水印文本层，正文为图像",
+      "visually_sampled_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        13,
+        21
+      ],
+      "used_in": "references/paper-examples.md"
+    },
+    {
+      "id": "P09",
+      "file": "2025数学建模国赛C题论文.pdf",
+      "sha256": "569536d356014e2cbfbda70376b3be35be29402a1470b2af4ad671be10794858",
+      "pages": 27,
+      "text_characters": 2160,
+      "format": "pdf",
+      "text_mode": "水印文本层，正文为图像",
+      "visually_sampled_pages": [
+        1,
+        6,
+        13
+      ],
+      "used_in": "references/paper-examples.md",
+      "duplicate_of": "P08"
+    },
+    {
+      "id": "P10",
+      "file": "A0127(1).pdf",
+      "sha256": "501093fbb3cd16efcb3825013febf1d68265dcc7f13d86b6d2173fd2c5046de1",
+      "pages": 50,
+      "text_characters": 0,
+      "format": "pdf",
+      "text_mode": "无正文文本层",
+      "visually_sampled_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        13,
+        21
+      ],
+      "used_in": "references/paper-examples.md"
+    },
+    {
+      "id": "P11",
+      "file": "B311(1).pdf",
+      "sha256": "400af4e5423af308fc873bd48a6f7b46cb37419f3176e7004c6889d0356d18d1",
+      "pages": 31,
+      "text_characters": 0,
+      "format": "pdf",
+      "text_mode": "无正文文本层",
+      "visually_sampled_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        13,
+        21
+      ],
+      "used_in": "references/paper-examples.md"
+    },
+    {
+      "id": "P12",
+      "file": "C050(1).pdf",
+      "sha256": "ef2539ce8aacf4e8b178ac4fdaa8d7a9a4fb2dd48edf13e5cebb4787d564e8e4",
+      "pages": 41,
+      "text_characters": 0,
+      "format": "pdf",
+      "text_mode": "无正文文本层",
+      "visually_sampled_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        13,
+        21
+      ],
+      "used_in": "references/paper-examples.md"
+    },
+    {
+      "id": "P13",
+      "file": "C109(1).pdf",
+      "sha256": "4b16e4dc6749bdc8bd7186b0e351537e3992d5b83e2c1bfbf8d186f12d5b74bd",
+      "pages": 77,
+      "text_characters": 0,
+      "format": "pdf",
+      "text_mode": "无正文文本层",
+      "visually_sampled_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        13,
+        21
+      ],
+      "used_in": "references/paper-examples.md"
+    },
+    {
+      "id": "P14",
+      "file": "C169.pdf",
+      "sha256": "6e08d0e22be985ad6306c2638b32b7e64f1238dcbe27d028198f7a26d06aa11c",
+      "pages": 51,
+      "text_characters": 0,
+      "format": "pdf",
+      "text_mode": "无正文文本层",
+      "visually_sampled_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        13,
+        21
+      ],
+      "used_in": "references/paper-examples.md"
+    },
+    {
+      "id": "P15",
+      "file": "C170.pdf",
+      "sha256": "d2a479986b83aabda64ee1161cd6d28665f9d10c4fd2280fc8aea651e5ebeba4",
+      "pages": 40,
+      "text_characters": 0,
+      "format": "pdf",
+      "text_mode": "无正文文本层",
+      "visually_sampled_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        13,
+        21
+      ],
+      "used_in": "references/paper-examples.md"
+    },
+    {
+      "id": "P16",
+      "file": "C227(1).pdf",
+      "sha256": "35172807cae3da764cd9c73c4870e9f3a542f066778be4dcd83b218aec539904",
+      "pages": 35,
+      "text_characters": 0,
+      "format": "pdf",
+      "text_mode": "无正文文本层",
+      "visually_sampled_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        13,
+        21
+      ],
+      "used_in": "references/paper-examples.md"
+    },
+    {
+      "id": "P17",
+      "file": "A133_基于圆柱体药材热风干燥的传热传质耦合模型分析.pdf",
+      "sha256": "8a481dfef333478a3c94851e7af106fcf9a2494d16c1994d68a6eeec52fa88ad",
+      "pages": 28,
+      "text_characters": 0,
+      "format": "pdf",
+      "text_mode": "无正文文本层；渲染和中文OCR辅助",
+      "visually_sampled_pages": [
+        1,
+        6,
+        13,
+        20
+      ],
+      "ocr_read_pages": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        13,
+        20,
+        24
+      ],
+      "used_in": "references/papers-2026.md"
+    },
+    {
+      "id": "P18",
+      "file": "A20_基于有限体积与自适应迭代的收缩圆柱中药材热质耦合模拟与干燥终点预测.pdf",
+      "sha256": "a803d05fd01e3730f6fe5ec8f2d87ff618f4daaa473c25fff8a622c15e2db816",
+      "pages": 30,
+      "text_characters": 0,
+      "format": "pdf",
+      "text_mode": "无正文文本层；渲染和中文OCR辅助",
+      "visually_sampled_pages": [
+        1,
+        4,
+        6,
+        13
+      ],
+      "ocr_read_pages": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        13,
+        20,
+        24
+      ],
+      "used_in": "references/papers-2026.md"
+    },
+    {
+      "id": "P19",
+      "file": "B091_基于角域交会与覆盖搜索的无线电干扰源自动定位清除.pdf",
+      "sha256": "f53a322d275c6540d44f7284ea810d9c5b77a207ca4558b1e603aa8e4df46c02",
+      "pages": 30,
+      "text_characters": 0,
+      "format": "pdf",
+      "text_mode": "无正文文本层；渲染和中文OCR辅助",
+      "visually_sampled_pages": [
+        1,
+        6,
+        13
+      ],
+      "ocr_read_pages": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        13,
+        20,
+        24
+      ],
+      "used_in": "references/papers-2026.md"
+    },
+    {
+      "id": "P20",
+      "file": "B141_有界测向误差下无线电干扰源的定位、选站与自动清除.pdf",
+      "sha256": "be573caea64926daafa3607d950c500862add8667019e41d2c18c24224495586",
+      "pages": 31,
+      "text_characters": 0,
+      "format": "pdf",
+      "text_mode": "无正文文本层；渲染和中文OCR辅助",
+      "visually_sampled_pages": [
+        1,
+        6,
+        13
+      ],
+      "ocr_read_pages": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        13,
+        20,
+        24
+      ],
+      "used_in": "references/papers-2026.md"
+    },
+    {
+      "id": "P21",
+      "file": "C084_基于因果预测与两阶段决策的微网购电优化模型.pdf",
+      "sha256": "7902066551d3b64201e13067adc3e1287601feee79c6c4b608f8361ca2451a76",
+      "pages": 30,
+      "text_characters": 0,
+      "format": "pdf",
+      "text_mode": "无正文文本层；渲染和中文OCR辅助",
+      "visually_sampled_pages": [
+        1,
+        6,
+        13,
+        24
+      ],
+      "ocr_read_pages": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        13,
+        20,
+        24
+      ],
+      "used_in": "references/papers-2026.md"
+    },
+    {
+      "id": "P22",
+      "file": "C119_基于条件分位与 MPC 滚动优化的微网购电调控策略.pdf",
+      "sha256": "3a9e1cccabba5c88df255196deb2cc40a990dac4ec56060f72ab3bff692ba3fb",
+      "pages": 31,
+      "text_characters": 0,
+      "format": "pdf",
+      "text_mode": "无正文文本层；渲染和中文OCR辅助",
+      "visually_sampled_pages": [
+        1,
+        6,
+        13
+      ],
+      "ocr_read_pages": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        13,
+        20,
+        24
+      ],
+      "used_in": "references/papers-2026.md"
+    },
+    {
+      "id": "P23",
+      "file": "D049_时频冲突消解与周期容量优化模型.pdf",
+      "sha256": "135cb24e0797bd30c7ae8e14068ce8308ec3498ebd2271b9c737c799ccc9bb2f",
+      "pages": 29,
+      "text_characters": 0,
+      "format": "pdf",
+      "text_mode": "无正文文本层；渲染和中文OCR辅助",
+      "visually_sampled_pages": [
+        1,
+        3,
+        6,
+        13
+      ],
+      "ocr_read_pages": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        13,
+        20,
+        24
+      ],
+      "used_in": "references/papers-2026.md"
+    },
+    {
+      "id": "P24",
+      "file": "E130_SEM 广告投放策略的研究与优化策略.pdf",
+      "sha256": "c2a3954bd7cf8c05ee1ccd1e8f5038361c8ff057052ce5b6fc2d3ab5ca229f56",
+      "pages": 29,
+      "text_characters": 0,
+      "format": "pdf",
+      "text_mode": "无正文文本层；渲染和中文OCR辅助",
+      "visually_sampled_pages": [
+        1,
+        6,
+        13,
+        24
+      ],
+      "ocr_read_pages": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        13,
+        20,
+        24
+      ],
+      "used_in": "references/papers-2026.md"
+    }
+  ]
+}
